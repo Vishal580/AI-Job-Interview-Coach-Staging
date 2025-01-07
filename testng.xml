@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="AI Job Interview Coach Staging API">
-    <test verbose="2" preserve-order="true" name="C:/Users/visha/IdeaProjects/AI_Coach">
+    <test verbose="2" preserve-order="true" name="C:\Users\visha\IdeaProjects\AI Job Interview Coach - Staging">
         <classes>
+            <!--            <class name="CreateUser">-->
+            <!--                <methods>-->
+            <!--                    <include name="CreateAccount_POST"/>-->
+            <!--                    <include name="ResendEmailVerification_POST"/>-->
+            <!--                    <include name="ResetPassword_POST"/>-->
+            <!--                </methods>-->
+            <!--            </class>-->
+            <!--            <class name="ChangePassword">-->
+            <!--                <methods>-->
+            <!--                    <include name="LoginUser_POST"/>-->
+            <!--                    <include name="ChangePassword_POST"/>-->
+            <!--                    <include name="DeleteUser_DELETE"/>-->
+            <!--                </methods>-->
+            <!--            </class>-->
             <class name="Auth">
                 <methods>
                     <include name="LoginUser_POST"/>
